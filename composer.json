@@ -1,0 +1,24 @@
+{
+    "name": "lispa/amos-m2m",
+    "description": "AMOS M2M",
+    "keywords": ["yii2", "framework", "module"],
+    "homepage": "http://www.lispa.it/",
+    "type": "module",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",       
+        "lispa/amos-core" : "*"                      	
+    },
+    "autoload": {
+        "psr-4": {
+            "lispa\\amos\\m2m\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
